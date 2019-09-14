@@ -3,7 +3,7 @@
 App en RoR configurada con la BD Postgresql, contiene:
 
 - Registro de usuarios donde se pueden asignar Roles diferentes gema usada Devise CanCanCan. https://github.com/RolifyCommunity/rolify/wiki/Devise---CanCanCan---rolify-Tutorial
-- El Administrador solo tiene una tabla para gestionar tickets (CRUD) donde puede asignarla a un usuario especifico.
+- El Administrador solo tiene una tabla para gestionar tickets (CRUD) donde puede asignarla a un usuario específico.
 - El Usuario solo posee una lista de tickets asignados y un botón para generar un Checked.
 - El login de usuario discrimina que tipo de usuario es y muestra el contenido asociado al tipo de usuario.
 
@@ -11,15 +11,15 @@ Para levantar el proyecto en localhost Se requiere tener intalado Ruby on Rails 
 
 Enlaces para windows 10:
 	
-RoR https://www.youtube.com/watch?v=3D9d0wmwHVQ
-PosgreSQL 10: https://www.postgresql.org/download/
-PgAdmin: https://www.pgadmin.org/download/
+- RoR https://www.youtube.com/watch?v=3D9d0wmwHVQ
+- PosgreSQL 10: https://www.postgresql.org/download/
+- PgAdmin: https://www.pgadmin.org/download/
 
 Una vez levantado clonar el proyecto y ejecutar dentro de la carpeta del proyecto:
 
-bundle install
-rake db:migrate
-rails db:seed
+- bundle install
+- rake db:migrate
+- rails db:seed
 
 los usuarios que se crean son:
 
@@ -37,7 +37,7 @@ https://github.com/twbs/bootstrap-rubygem
 
 Deploy en Heroku https://pacific-escarpment-15272.herokuapp.com/
 
-para hacer tu propio deploy
+- para hacer tu propio deploy
 
 create una cuenta en heroku luego ingresa estos campos en consola (solo si sigues el tutorial para windows 10)
 
